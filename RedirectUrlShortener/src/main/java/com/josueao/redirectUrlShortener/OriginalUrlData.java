@@ -1,13 +1,16 @@
-package com.josueao.creatUrlShortner;
+package com.josueao.redirectUrlShortener;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @AllArgsConstructor
-@Setter
+@NoArgsConstructor
 @Getter
-public class UrlData {
+@Setter
+public class OriginalUrlData {
     private String originalUrl;
     private Long expirationTime;
 }
+
